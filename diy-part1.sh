@@ -27,4 +27,3 @@ git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 git clone https://github.com/KFERMercer/luci-app-tcpdump package/luci-app-tcpdump
 git clone https://github.com/immortalwrt-collections/openwrt-filebrowser package/openwrt-filebrowser
-#git clone https://github.com/selfcan/luci-app-homebox.git package/luci-app-homebox
