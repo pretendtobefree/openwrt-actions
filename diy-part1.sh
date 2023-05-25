@@ -14,16 +14,17 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #echo 'src-git lua-maxminddb https://github.com/jerrykuku/lua-maxminddb' >>feeds.conf.default
 #echo 'src-git luci-app-vssr https://github.com/jerrykuku/luci-app-vssr' >>feeds.conf.default
-echo 'src-git OpenAppFilter https://github.com/destan19/OpenAppFilter' >>feeds.conf.default
+#echo 'src-git OpenAppFilter https://github.com/destan19/OpenAppFilter' >>feeds.conf.default
 #echo 'src-git luci-app-tcpdump https://github.com/KFERMercer/luci-app-tcpdump' >>feeds.conf.default
 #echo 'src-git openwrt-filebrowser https://github.com/immortalwrt-collections/openwrt-filebrowser' >>feeds.conf.default
-echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.default
+#echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 #echo 'src-git netspeedtest https://github.com/sirpdboy/netspeedtest' >>feeds.conf.default
-git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
-git clone https://github.com/KFERMercer/luci-app-tcpdump package/luci-app-tcpdump
-git clone https://github.com/immortalwrt-collections/openwrt-filebrowser package/openwrt-filebrowser
+#git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
+#git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
+#git clone https://github.com/KFERMercer/luci-app-tcpdump package/luci-app-tcpdump
+#git clone https://github.com/immortalwrt-collections/openwrt-filebrowser package/openwrt-filebrowser
+echo 'src-git Others https://github.com/pretendtobefree/openwrt-package' >>feeds.conf.default
