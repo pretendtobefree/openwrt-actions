@@ -22,5 +22,6 @@ clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 clone https://github.com/KFERMercer/luci-app-tcpdump package/luci-app-tcpdump
 clone https://github.com/immortalwrt-collections/openwrt-filebrowser package/openwrt-filebrowser
-
+clone https://github.com/selfcan/luci-app-homebox.git package/luci-app-homebox
+clone https://github.com/ZeaKyX/luci-app-speedtest-web.git package/luci-app-speedtest-web
 clone https://github.com/pretendtobefree/openwrt-package package/other
