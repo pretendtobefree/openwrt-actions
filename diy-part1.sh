@@ -18,10 +18,10 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git OpenAppFilter https://github.com/destan19/OpenAppFilter' >>feeds.conf.default
 echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.default
-clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
-clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
-clone https://github.com/KFERMercer/luci-app-tcpdump package/luci-app-tcpdump
-clone https://github.com/immortalwrt-collections/openwrt-filebrowser package/openwrt-filebrowser
-clone https://github.com/selfcan/luci-app-homebox.git package/luci-app-homebox
-clone https://github.com/ZeaKyX/luci-app-speedtest-web.git package/luci-app-speedtest-web
-clone https://github.com/pretendtobefree/openwrt-package package/other
+git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
+git clone https://github.com/KFERMercer/luci-app-tcpdump package/luci-app-tcpdump
+git clone https://github.com/immortalwrt-collections/openwrt-filebrowser package/openwrt-filebrowser
+git clone https://github.com/selfcan/luci-app-homebox.git package/luci-app-homebox
+git clone https://github.com/ZeaKyX/luci-app-speedtest-web.git package/luci-app-speedtest-web
+git clone https://github.com/pretendtobefree/openwrt-package package/other
