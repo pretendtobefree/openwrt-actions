@@ -96,6 +96,6 @@ jobs:
     - name: Upload dl directory
       uses: actions/upload-artifact@main
       with:
-        name: dl.tar.gz
+        name: dl
         path: openwrt/dl
 
