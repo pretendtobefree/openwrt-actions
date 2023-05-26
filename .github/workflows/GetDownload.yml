@@ -97,5 +97,5 @@ jobs:
       uses: actions/upload-artifact@main
       with:
         name: dl.tar.gz
-        path: openwrt/bin
+        path: openwrt/dl
 
